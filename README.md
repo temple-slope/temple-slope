@@ -1,12 +1,11 @@
 <a href="https://github.com/temple-slope">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&width=800&lines=Hi+there+%F0%9F%91%8B%2C+I'm+temple-slope;Software+Engineer+%7C+FinTech+%26+Blockchain;Exploring+AI+on+the+side" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&width=800&lines=Hi+there+%F0%9F%91%8B%2C+I'm+temple-slope;Software+Engineer+%7C+FinTech;Exploring+AI+on+the+side" alt="Typing SVG" />
 </a>
 
 ## About Me
 
 - Software Engineer based in Japan
-- Focused on FinTech — building backend systems at a cryptocurrency exchange
-- Full-stack development across blockchain, crypto, and financial services
+- Focused on FinTech — building backend systems for financial services
 - Exploring AI and LLMs as a side interest
 
 ## Tech Stack
@@ -34,12 +33,6 @@
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![Datadog](https://img.shields.io/badge/Datadog-632CA6?style=flat-square&logo=datadog&logoColor=white)
-
-**Blockchain**
-
-![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=flat-square&logo=ethereum&logoColor=white)
-![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
-![The Graph](https://img.shields.io/badge/The_Graph-6747ED?style=flat-square&logo=thegraph&logoColor=white)
 
 ## GitHub Stats
 
