@@ -1,13 +1,13 @@
 <a href="https://github.com/temple-slope">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&width=800&lines=Hi+there+%F0%9F%91%8B%2C+I'm+temple-slope;Software+Engineer+%7C+Full-stack+%26+Blockchain;Building+the+future+of+Web3" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&width=800&lines=Hi+there+%F0%9F%91%8B%2C+I'm+temple-slope;Software+Engineer+%7C+FinTech+%26+Blockchain;Exploring+AI+on+the+side" alt="Typing SVG" />
 </a>
 
 ## About Me
 
 - Software Engineer based in Japan
-- Full-stack development with a focus on blockchain & crypto
-- Currently working on backend systems at a cryptocurrency exchange
-- Passionate about decentralized technologies and scalable architectures
+- Focused on FinTech — building backend systems at a cryptocurrency exchange
+- Full-stack development across blockchain, crypto, and financial services
+- Exploring AI and LLMs as a side interest
 
 ## Tech Stack
 
@@ -44,12 +44,17 @@
 ## GitHub Stats
 
 <p align="center">
-  <a href="https://github.com/temple-slope">
-    <img height="170" src="https://github-readme-stats.vercel.app/api?username=temple-slope&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
-  </a>
-  <a href="https://github.com/temple-slope">
-    <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=temple-slope&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
-  </a>
+  <img src="https://raw.githubusercontent.com/temple-slope/temple-slope/master/profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile Details" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/temple-slope/temple-slope/master/profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Repos per Language" />
+  <img src="https://raw.githubusercontent.com/temple-slope/temple-slope/master/profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Most Commit Language" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/temple-slope/temple-slope/master/profile-summary-card-output/tokyonight/3-stats.svg" alt="Stats" />
+  <img src="https://raw.githubusercontent.com/temple-slope/temple-slope/master/profile-summary-card-output/tokyonight/4-productive-time.svg" alt="Productive Time" />
 </p>
 
 <p align="center">
