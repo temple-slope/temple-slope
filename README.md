@@ -1,11 +1,12 @@
 <a href="https://github.com/temple-slope">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&width=800&lines=Hi+there+%F0%9F%91%8B%2C+I'm+temple-slope;Software+Engineer+%7C+FinTech;Exploring+AI+on+the+side" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&width=800&lines=Hi+there+%F0%9F%91%8B%2C+I'm+temple-slope;Software+Engineer+%7C+FinTech+%26+Blockchain;Exploring+AI+on+the+side" alt="Typing SVG" />
 </a>
 
 ## About Me
 
 - Software Engineer based in Japan
-- Focused on FinTech — building backend systems for financial services
+- Building backend systems at a cryptocurrency exchange
+- Strengths in FinTech and Blockchain — payments, trading systems, and smart contracts
 - Exploring AI and LLMs as a side interest
 
 ## Tech Stack
