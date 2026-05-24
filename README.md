@@ -38,6 +38,7 @@
 ## OSS Activity
 
 <!--START_SECTION:activity-->
+- [`lingdojo/kana-dojo#4941`](https://github.com/lingdojo/kana-dojo/pull/4941) — content: add new japan fact <sub>(2026-02-15)</sub>
 <!--END_SECTION:activity-->
 
 ## GitHub Stats
