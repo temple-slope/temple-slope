@@ -35,12 +35,6 @@
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![Datadog](https://img.shields.io/badge/Datadog-632CA6?style=flat-square&logo=datadog&logoColor=white)
 
-## OSS Activity
-
-<!--START_SECTION:activity-->
-- [`lingdojo/kana-dojo#4941`](https://github.com/lingdojo/kana-dojo/pull/4941) — content: add new japan fact <sub>(2026-02-15)</sub>
-<!--END_SECTION:activity-->
-
 ## GitHub Stats
 
 <p align="center">
