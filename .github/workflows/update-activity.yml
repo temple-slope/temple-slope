@@ -1,4 +1,4 @@
-name: Update Recent Activity
+name: Update OSS Activity
 
 on:
   schedule:
@@ -14,9 +14,55 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: jamesgeorge007/github-activity-readme@master
-        with:
-          COMMIT_MSG: "chore: update recent activity"
-          MAX_LINES: 10
+      - name: Generate OSS activity list
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+
+          gh search prs \
+            --author=temple-slope \
+            --merged \
+            --visibility=public \
+            --limit=30 \
+            --sort=created \
+            --order=desc \
+            --json repository,title,url,number,createdAt > prs.json
+
+          jq -r '
+            map(select(.repository.nameWithOwner | startswith("temple-slope/") | not))
+            | .[0:10]
+            | map("- [`\(.repository.nameWithOwner)#\(.number)`](\(.url)) — \(.title) <sub>(\(.createdAt | split("T")[0]))</sub>")
+            | .[]
+          ' prs.json > activity.md
+
+          if [ ! -s activity.md ]; then
+            echo "_No external OSS contributions yet._" > activity.md
+          fi
+
+          python3 - <<'PY'
+          import pathlib, re
+          readme = pathlib.Path("README.md").read_text()
+          activity = pathlib.Path("activity.md").read_text().rstrip()
+          new = re.sub(
+              r"<!--START_SECTION:activity-->.*?<!--END_SECTION:activity-->",
+              f"<!--START_SECTION:activity-->\n{activity}\n<!--END_SECTION:activity-->",
+              readme,
+              flags=re.DOTALL,
+          )
+          pathlib.Path("README.md").write_text(new)
+          PY
+
+          rm prs.json activity.md
+
+      - name: Commit and push if changed
+        run: |
+          if git diff --quiet README.md; then
+            echo "No changes to README."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: update OSS activity"
+          git push
