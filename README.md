@@ -35,7 +35,7 @@
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![Datadog](https://img.shields.io/badge/Datadog-632CA6?style=flat-square&logo=datadog&logoColor=white)
 
-## Recent Activity
+## OSS Activity
 
 <!--START_SECTION:activity-->
 <!--END_SECTION:activity-->
