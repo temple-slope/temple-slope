@@ -35,6 +35,12 @@
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![Datadog](https://img.shields.io/badge/Datadog-632CA6?style=flat-square&logo=datadog&logoColor=white)
 
+## OSS Activity
+
+External contributions, queried live from GitHub:
+
+[![Repositories I've contributed to](https://img.shields.io/badge/Repositories_I've_contributed_to-temple--slope-181717?style=flat-square&logo=github)](https://github.com/search?q=contributed-by%3Atemple-slope+-owner%3Atemple-slope&type=repositories)
+
 ## GitHub Stats
 
 <p align="center">
